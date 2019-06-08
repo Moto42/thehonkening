@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "Goose Willis: The Honkening",
+  "version": "0.0",
+
+  "description": "Honk HONK honk honk HONK HONK HONK!",
+
+  "icons" : {
+    "96": "icons/honk96.png",
+    "48": "icons/honk48.png"
+  },
+
+  "content_scripts": {
+    "matches": ["*://forums.somethingawful.com/showthread.php?*threadid=3032497*"],
+    "js": ["honkening.js"]
+  }
+}
